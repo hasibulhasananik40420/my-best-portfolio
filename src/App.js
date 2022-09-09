@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
@@ -8,8 +7,14 @@ import Resume from './Pages/Resume/Resume';
 import MyWork from './Pages/MyWork/MyWork';
 import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
-
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div>
 

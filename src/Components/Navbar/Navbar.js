@@ -17,7 +17,7 @@ const Navbar = () => {
                             {/* <img className='w-1/4 h-1/4' src="http://likeabawz.dk/exill/demo/kitzu/template/img/img-kitzu-logo.png" alt="" /> */}
                             <div className=' w-6 h-4 bg-amber-400 rounded-r-full mr-2'> </div>
 
-                            <h1 className=''>HASIBUL</h1>
+                            <h1 className='font-mons'>HASIBUL</h1>
                         </span>
 
 
@@ -31,26 +31,26 @@ const Navbar = () => {
                     <ul onClick={() => setOpen(!open)} className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#00459e] md:bg-black md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-16 ' : 'top-[-490px]'}`}>
 
 
-                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0'>
+                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0 font-san'>
                             <Link to='/' className='md:text-white  md:border-0 hover:text-gray-400 duration-500'>HOME</Link>
                         </li>
 
-                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0'>
+                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0 font-san'>
                             <Link to='/about' className='md:text-white hover:text-gray-400 duration-500'>ABOUT</Link>
                         </li>
 
-                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0'>
+                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0 font-san'>
                             <Link to='/resume' className='md:text-white hover:text-gray-400 duration-500'>RESUME</Link>
                         </li>
 
-                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0'>
+                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0 font-san'>
                             <Link to='/mywork' className='md:text-white hover:text-gray-400 duration-500'>MY WORK</Link>
                         </li>
 
-                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0'>
+                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0 font-san'>
                             <Link to='/blogs' className='md:text-white hover:text-gray-400 duration-500'>BLOGS</Link>
                         </li>
-                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0'>
+                        <li className='md:ml-8 text-xl md:my-0 my-7 border-b border-b-[#009e66] md:border-0 pb-2 md:pb-0 font-san'>
                             <Link to='/contact' className='md:text-white hover:text-gray-400 duration-500'>CONTACT</Link>
                         </li>
 

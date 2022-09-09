@@ -1,0 +1,180 @@
+#box {
+    border-radius: 6px;
+    position: relative;
+    width: 130px;
+    height: 130px;
+    transform: rotate(45deg);
+    border: 1px solid grey;
+    background-color: #2D2D2D;
+    box-shadow: 0 0 5px 1px black,
+        0 0 5px 1px black inset;
+}
+
+#text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: mono;
+    color: white;
+    text-shadow: -1px -1px 3px grey,
+        1px 1px 5px black;
+}
+
+#box1 {
+    border-radius: 5px;
+    position: absolute;
+    animation: loadingIcon 2s linear 0s infinite, changeColor 2s linear 0s infinite;
+}
+
+#box2 {
+    border-radius: 5px;
+    position: absolute;
+    animation: loadingIcon 2s linear -0.5s infinite, changeColor 2s linear -0.5s infinite;
+}
+
+#box3 {
+    border-radius: 5px;
+    position: absolute;
+    animation: loadingIcon 2s linear -1s infinite, changeColor 2s linear -1s infinite;
+}
+
+#box4 {
+    border-radius: 5px;
+    position: absolute;
+    animation: loadingIcon 2s linear -1.5s infinite, changeColor 2s linear -1.5s infinite;
+}
+
+@keyframes loadingIcon {
+    0% {
+        margin: 0 0 0 0;
+        height: 0;
+        width: 100%;
+
+        border-top: 3px solid;
+        border-left: 3px solid;
+    }
+
+    25% {
+        margin: 0 0 0 0;
+        height: 100%;
+        width: 0%;
+
+        border-top: 3px solid;
+        border-left: 3px solid;
+        border-bottom: none;
+    }
+
+    25.0001% {
+        border-top: none;
+        border-bottom: 3px solid;
+    }
+
+    50% {
+        margin: 100% 0 0 0;
+        height: 0;
+        width: 100%;
+
+        border-left: 3px solid;
+        border-bottom: 3px solid;
+        border-right: none;
+    }
+
+    50.0001% {
+        border-left: none;
+        border-right: 3px solid;
+    }
+
+    75% {
+        margin: 0 0 0 100%;
+        width: 0;
+        height: 100%;
+
+        border-top: none;
+        border-bottom: 3px solid;
+        border-right: 3px solid;
+    }
+
+    75.0001% {
+        border-top: 3px solid;
+        border-bottom: none;
+    }
+
+    100% {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 0;
+
+        border-top: 3px solid;
+        border-left: none;
+        border-bottom: none;
+        border-right: 3px solid;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        border-top: 5px solid #FD5774;
+        border-left: 5px solid #FD5774;
+    }
+
+    25% {
+        border-top: 5px solid #FF9258;
+        border-left: 5px solid #FF9258;
+        border-bottom: none;
+    }
+
+    25.0001% {
+        border-top: none;
+        border-bottom: 5px solid #FF9258;
+    }
+
+    50% {
+        border-left: 5px solid #53F3C3;
+        border-bottom: 5px solid #53F3C3;
+        border-right: none;
+    }
+
+    50.0001% {
+        border-left: none;
+        border-right: 5px solid #53F3C3;
+    }
+
+    75% {
+        border-top: none;
+        border-bottom: 5px solid #87FA56;
+        border-right: 5px solid #87FA56;
+    }
+
+    75.0001% {
+        border-top: 5px solid #87FA56;
+        border-bottom: none;
+    }
+
+    100% {
+        border-top: 5px solid #FD5774;
+        border-left: none;
+        border-bottom: none;
+        border-right: 5px solid #FD5774;
+    }
+}
+
+
+/* Facultative - Center the object */
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36383F;
+}

@@ -13,29 +13,30 @@
   }
 }
 
-/* .home-color {
-  background: linear-gradient(#22577E, transparent);
 
+
+
+/* .border-image-clip-path {
+
+  border-radius: 50%;
+  border: 10px solid;
+  border-image: linear-gradient(45deg, gold, deeppink) 1;
+  clip-path: inset(0px round 10px);
+  animation: huerotate 6s infinite linear;
+  filter: hue-rotate(360deg);
+} */
+
+/* @keyframes huerotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
 } */
 
 
-/* --first-color: #22577E;
---first-color-alt: #5ca1dd;
---first-color-lighter: hsl(207, 92%, 85%);
-
---title-color: hsl(207, 8%, 15%);
-
---text-color: hsl(207, 8%, 45%);
---text-color-light: hsl(207, 8%, 65%);
-
---input-color: hsl(207, 0%, 87%);
---body-color: hsl(207, 0%, 95%);
---body-white: hsl(207, 60%, 100%);
---body-white-nt: hsl(207, 60%, 100%);
---body-third: hsl(0deg 0% 94% / 77%);
-
---scroll-bar-color: hsl(207, 12%, 90%);
---scroll-thumb-color: hsl(207, 12%, 80%); */
 
 
 .App-header {
