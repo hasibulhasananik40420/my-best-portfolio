@@ -72,8 +72,8 @@ const About = () => {
 
 
             <div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0 ">
-                <p class=" ml-32 leading-normal font-thin text-white font-mons">Services i offer to my clients</p>
-                <h2 class="text-4xl ml-32 mb-8 leading-normal font-bold text-white font-san">My Services</h2>
+                <p class=" md:ml-32 ml-6 leading-normal font-thin text-white font-mons">Services i offer to my clients</p>
+                <h2 class="text-4xl md:ml-32 ml-6 mb-8 leading-normal font-bold text-white font-san">My Services</h2>
 
                 <div class="container xl:max-w-6xl mx-auto px-4">
 
@@ -157,9 +157,9 @@ const About = () => {
                 <div class="py-16 white">
                     <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
 
-                        <p class="mb-4 leading-normal font-thin text-white">What my clients think about me</p>
+                        <p class="mb-4 leading-normal font-thin text-white font-mons">What my clients think about me</p>
 
-                        <h2 class="mb-12  text-3xl text-white font-bold md:text-4xl">Testimonials</h2>
+                        <h2 class="mb-12  text-3xl text-white font-bold md:text-4xl font-san">Testimonials</h2>
                         <div class="grid gap-8 md:grid-rows-2 lg:grid-cols-2">
 
                             <div class="row-span-2 p-6 rounded bg-[#161616] text-center sm:p-8">

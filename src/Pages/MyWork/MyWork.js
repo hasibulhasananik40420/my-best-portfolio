@@ -2,8 +2,8 @@ import React from 'react';
 import './MyWork.css'
 const MyWork = () => {
     return (
-        <div className='bg-black pt-2 pb-8'>
-            <div className='mx-14'>
+        <div className='bg-black pt-2 pb-8 w-full overflow-hidden'>
+            <div className='md:px-14 px-6'>
 
                 <div className='text-white text-center'>
                     <p className='pt-8 font-mons'>Showcasing some of my best work</p>

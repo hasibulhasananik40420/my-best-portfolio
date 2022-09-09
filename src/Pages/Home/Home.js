@@ -22,7 +22,7 @@ const Home = () => {
 
                     <div className='md:flex gap-4 items-center'>
                         <button className=' py-3 px-8 mt-6 font-mons rounded-full bg-[#009e66] text-white font-medium'>Contact me</button>
-                        <div className='border border-gray-400 md:w-20 w-24 mt-5'></div>
+                        <div className='border border-gray-400 md:w-20 w-36 mt-5'></div>
 
                         <div className='flex gap-3 mt-5'>
                             <AiOutlineTwitter className='text-white text-xl hover:text-[#009e66] duration-300 cursor-pointer'></AiOutlineTwitter>
@@ -39,7 +39,7 @@ const Home = () => {
 
                 <div className=''>
                     {/* <img className='rounded-full border-2 w-[400px] h-[400px]' src="https://i.ibb.co/KNvnsXG/black-background-with-focus-spot-light-1017-27230.png" alt="" /> */}
-                    <img className=' rounded-full border-2 border-[#22577E] hover:border-4 hover:border-[#22577E] duration-300 md:w-[400px] md:h-[400px] w-[350px] h-[350px] md:mt-0 mt-8' src="https://i.ibb.co/TbWZ8nS/black-smooth-textured-paper-background-53876-98333.png" alt="" />
+                    <img className=' rounded-full border-2 border-[#22577E] hover:border-4 hover:border-[#22577E] duration-300 md:w-[400px] md:h-[400px] w-[300px] h-[300px] md:mt-0 mt-8' src="https://i.ibb.co/TbWZ8nS/black-smooth-textured-paper-background-53876-98333.png" alt="" />
                 </div>
             </div>
         </div>
