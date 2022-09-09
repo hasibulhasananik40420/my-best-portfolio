@@ -14,13 +14,13 @@ const About = () => {
             </div>
 
 
-            <div className='md:flex justify-between gap-24 mx-20 mt-16'>
+            <div className='md:flex justify-between  gap-24 md:mx-20 mx-8 mt-16'>
 
 
 
-                <div>
-                    <img className='h-[500px]' src="https://harnishdesign.net/demo/html/callum/images/web-developer.jpg" alt="" />
-                    {/* <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/info-img.jpg" alt="" /> */}
+                <div >
+                    {/* <img className='h-[500px]' src="https://harnishdesign.net/demo/html/callum/images/web-developer.jpg" alt="" /> */}
+                    <img className='w-[400px] h-[480px] border-2' src="https://i.ibb.co/LYpbW6P/IMG-20220506-WA0087.jpg" alt="" />
                 </div>
 
 

@@ -72,8 +72,8 @@ const MyWork = () => {
 
                         <div className="card-body">
 
-                            <h1 className='card-title'>anik</h1>
-                            <p className='card-sub-title'>new year city</p>
+                            <h1 className='card-title'>Traditional Barbar Shop</h1>
+                            <p className='card-sub-title'>25 July 2021</p>
                             <p className='card-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur cumque harum ducimus officia deserunt alias quaerat culpa quos, eum consectetur voluptatum? Placeat, repellat fugit.</p>
 
                             <div className='flex gap-4 text-blue-600 p-2'>
@@ -88,8 +88,8 @@ const MyWork = () => {
 
                         <div className="card-body">
 
-                            <h1 className='card-title'>anik</h1>
-                            <p className='card-sub-title'>new year city</p>
+                            <h1 className='card-title'>Genius Cars Service </h1>
+                            <p className='card-sub-title'>11th Dec 2021</p>
                             <p className='card-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur cumque harum ducimus officia deserunt alias quaerat culpa quos, eum consectetur voluptatum? Placeat, repellat fugit.</p>
                             <div className='flex gap-4 text-blue-600 p-2'>
                                 <a href="">Live Link</a>
@@ -103,8 +103,8 @@ const MyWork = () => {
 
                         <div className="card-body">
 
-                            <h1 className='card-title'>anik</h1>
-                            <p className='card-sub-title'>new year city</p>
+                            <h1 className='card-title'>Ecommarce Website</h1>
+                            <p className='card-sub-title'>22 Feb 2022</p>
                             <p className='card-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur cumque harum ducimus officia deserunt alias quaerat culpa quos, eum consectetur voluptatum? Placeat, repellat fugit.</p>
 
                             <div className='flex gap-4 text-blue-600 p-2'>

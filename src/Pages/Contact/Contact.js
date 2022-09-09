@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
     return (
-        <div className='bg-black md:h-[100vh]'>
+        <div className='bg-black md:h-[100vh] pb-8'>
             <div className='mx-16'>
                 <div className='pt-16 text-center text-white'>
                     <p className=''>Feel free to contact me anytimes</p>
@@ -37,9 +37,11 @@ const Contact = () => {
                         <h1 className='text-4xl mb-6 text-white'>Contact Info</h1>
                         <p className='text-white'>Always available for freelance work if the right project comes along, Feel free to contact me!</p>
 
-                        <div className='mt-8 w-full'>
+                        <div className='mt-8 w-full border-l-2 pl-4'>
 
-                            <div className='flex items-center gap-12 mb-4'>
+
+
+                            <div className='flex items-center gap-12 mb-4 '>
                                 <div><SiNamecheap className='text-3xl text-[#009e66]'></SiNamecheap>
                                 </div>
 
@@ -48,6 +50,8 @@ const Contact = () => {
                                     <p className='text-sm'>Hasibul Hasan</p>
                                 </div>
                             </div>
+
+
 
                             <div className='flex items-center gap-12 mb-4'>
                                 <div> <BsBookmarks className='text-3xl text-[#009e66]'></BsBookmarks>

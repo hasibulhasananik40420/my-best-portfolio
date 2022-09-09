@@ -4,7 +4,7 @@ import ProgressBar from '../ProgressBar/ProgressBar';
 const Resume = () => {
     return (
         <div className='bg-black'>
-            <div className='md:mx-14 mx-6'>
+            <div className='md:mx-14 mx-6 pb-12'>
                 <div className='pt-14'>
                     <p className='text-gray-400 text-center'>Check out my Resume</p>
                     <h1 className='text-white font-bold text-4xl text-center pt-2'>Resume</h1>
@@ -98,8 +98,19 @@ const Resume = () => {
 
 
 
-                <div>
+                <div className='md:flex justify-between items-center mt-12'>
+                    <div className='md:w-2/4 w-full'>
+                        <h1 className='md:text-4xl text-2xl font-bold text-white'>Take a tour of my office
+                        </h1>
 
+                        <p className='text-white mt-4 leading-7'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia cum quasi assumenda culpa praesentium consectetur voluptatibus expedita. Voluptatem tempore, aspernatur rem facilis, distinctio nemo! Odio velit, nemo dolorem voluptas!</p>
+
+                        <p className='text-white mt-4 leading-7'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium qui aspernatur unde mollitia, in laborum.</p>
+                    </div>
+
+                    <div>
+                        <img className='w-[500px] md:mt-0 mt-16' src="https://img.freepik.com/free-photo/abstract-office-desktop_155003-6430.jpg?size=626&ext=jpg&ga=GA1.2.1166836568.1647150580" alt="" />
+                    </div>
                 </div>
 
 
