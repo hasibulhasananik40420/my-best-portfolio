@@ -6,8 +6,8 @@ import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
     return (
-        <div className='bg-black md:h-[100vh] pb-8'>
-            <div className='mx-16'>
+        <div className='bg-black md:h-[100vh] pb-8 w-full overflow-hidden'>
+            <div className='md:mx-14 mx-6'>
                 <div className='pt-16 text-center text-white'>
                     <p className='font-mons'>Feel free to contact me anytimes</p>
                     <h1 className='md:text-5xl text-3xl font-bold mt-4 font-san'>Get in Touch</h1>
