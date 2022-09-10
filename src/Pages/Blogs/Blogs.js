@@ -11,59 +11,77 @@ const Blogs = () => {
                 </div>
 
 
-                {/* <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mt-12 pb-12 '>
-                    <div className=' md:w-[400px] w-full font-san'>
-                        <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-1.jpg" alt="" />
-                        <p className='bg-[#009e66] p-1 w-24 text-white font-semibold absolute md:bottom-[120px] bottom-[144px]'>11 Dec, 22</p>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-10 mt-12 pb-12 '>
+                    <div data-aos="fade-up-left" className='relative md:w-[400px] w-full font-san'>
+                        <img src="https://i.ibb.co/CJ8xNr6/post-2.jpg" alt="" />
+
                         <h1 className='text-2xl font-semibold text-white mt-2'>Top tools for Photographers</h1>
-                        <p className=' text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                        <p className='text-sm text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+
+                        <div className='absolute left-0 top-0'> <p className='bg-[#009e66] p-1 w-24 text-white font-semibold '>11 Dec, 22</p></div>
                     </div>
 
-                    <div className=' md:w-[400px] w-full font-san'>
-                        <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-2.jpg" alt="" />
-                        <p className='bg-[#009e66] p-1 w-24 text-white font-semibold absolute md:bottom-[120px] bottom-[144px]'>12 Aug, 22</p>
+                    <div data-aos="flip-left" className='relative md:w-[400px] w-full font-san'>
+                        <img src="https://i.ibb.co/h2vyXW0/post-1.jpg" alt="" />
+
                         <h1 className='text-2xl font-semibold text-white mt-2'>Take a tour of my office</h1>
-                        <p className=' text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                        <p className='text-sm text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+
+                        <div className='absolute left-0 top-0'>
+                            <p className='bg-[#009e66] p-1 w-24 text-white font-semibold'>12 Aug, 22</p>
+                        </div>
                     </div>
 
-                    <div className=' md:w-[400px] w-full font-san'>
-                        <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-3.jpg" alt="" />
-                        <p className='bg-[#009e66] p-1 w-24 text-white font-semibold absolute md:bottom-[120px] bottom-[176px]'>4 Feb, 22</p>
+                    <div data-aos="fade-up-right" className='relative md:w-[400px] w-full font-san'>
+                        <img src="https://i.ibb.co/nf37kDj/post-3.jpg" alt="" />
+
                         <h1 className='text-2xl font-semibold text-white mt-2'>How i became a Web Designer</h1>
-                        <p className=' text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                        <p className='text-sm text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+
+                        <div className='absolute left-0 top-0'> <p className='bg-[#009e66] p-1 w-24 text-white font-semibold '>4 Feb, 22</p></div>
                     </div>
 
-                    <div className=' md:w-[400px] w-full font-san'>
-                        <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-4.jpg" alt="" />
-                        <p className='bg-[#009e66] p-1 w-24 text-white font-semibold absolute md:bottom-[152px] bottom-[168px]'>11 Nov, 20</p>
+                    <div data-aos="zoom-out" className='relative md:w-[400px] w-full font-san'>
+                        <img src="https://i.ibb.co/y4tmSHn/post-4.jpg" alt="" />
+
                         <h1 className='md:text-2xl text-xl font-semibold text-white mt-2'>How to improve work performance</h1>
-                        <p className=' text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                        <p className='text-sm text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+
+                        <div className='absolute left-0  top-0'><p className='bg-[#009e66] p-1 w-24 text-white font-semibold '>11 Nov, 20</p></div>
                     </div>
 
-                    <div className=' md:w-[400px] w-full font-san'>
-                        <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-5.jpg" alt="" />
-                        <p className='bg-[#009e66] p-1 w-24 text-white font-semibold absolute md:bottom-[152px] bottom-[144px]'>27 Dec, 19</p>
+                    <div data-aos="zoom-in" className='relative md:w-[400px] w-full font-san'>
+                        <img src="https://i.ibb.co/ygMtVq2/post-5.jpg" alt="" />
+
                         <h1 className='text-2xl font-semibold text-white mt-2'>How to work from home</h1>
-                        <p className=' text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                        <p className='text-sm text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+
+                        <div className='absolute left-0 top-0'>
+                            <p className='bg-[#009e66] p-1 w-24 text-white font-semibold '>27 Dec, 19</p>
+                        </div>
                     </div>
-                    <div className=' md:w-[400px] w-full font-san'>
-                        <img src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-6.jpg" alt="" />
-                        <p className='bg-[#009e66] p-1 w-24 text-white font-semibold absolute md:bottom-[152px] bottom-[140px]'>19 Feb, 18</p>
+                    <div data-aos="zoom-in-down" className='relative md:w-[400px] w-full font-san'>
+                        <img src="https://i.ibb.co/0CmLDKX/post-6.jpg" alt="" />
+
                         <h1 className='md:text-2xl text-xl font-semibold text-white mt-2'>How to enjoy your business trip</h1>
-                        <p className=' text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+                        <p className='text-sm text-white mt-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo quam, eum alias id, repellendus magni, quas.</p>
+
+                        <div className='absolute left-0   top-0'>
+                            <p className='bg-[#009e66] p-1 w-24 text-white font-semibold '>19 Feb, 18</p>
+                        </div>
                     </div>
-                </div> */}
+                </div>
 
 
 
 
-                <div>
+                {/* <div>
                     <section class="text-gray-600 body-font">
                         <div class="container px-5 py-24 mx-auto">
                             <div class="flex flex-wrap -m-4">
                                 <div class="p-4 md:w-1/3">
                                     <div class="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
-                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80" alt="blog" />
+                                        <img class="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100" src="http://likeabawz.dk/exill/demo/kitzu/template/img/post-1.jpg" alt="blog" />
                                         <div class="p-6">
                                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY-1</h2>
                                             <h1 class="title-font text-lg font-medium text-gray-600 mb-3">The Catalyzer</h1>
@@ -106,7 +124,7 @@ const Blogs = () => {
                             </div>
                         </div>
                     </section>
-                </div>
+                </div> */}
 
 
 
