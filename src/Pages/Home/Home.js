@@ -17,7 +17,7 @@ const Home = () => {
             <div className='md:flex gap-32  md:items-center w-full md:mx-14 mx-6 mt-12'>
                 <div className='md:w-2/4 w-full '>
 
-                    <h1 className=' md:text-5xl text-3xl font-bold font-mons text-white'>HASIBUL HASAN</h1>
+                    <h1 className=' md:text-5xl text-3xl font-bold font-mons text-white anik'>HASIBUL HASAN</h1>
 
                     <h1 className='text-3xl font-mons flex gap-3 mt-3'><span className='text-white'>I'm a  </span>  <span className='text-[#009e66]'> <Typical
                         steps={["Designer ", 2000, "Developer", 2000, "Freelancer", 2000]}
