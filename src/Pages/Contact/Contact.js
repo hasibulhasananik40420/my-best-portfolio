@@ -16,7 +16,7 @@ const Contact = () => {
                 </div>
 
 
-                <form className='md:flex justify-between gap-16 mt-8'>
+                <div className='md:flex justify-between gap-16 mt-8'>
                     <div data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="1500" className='md:w-3/4 w-full mt-6'>
@@ -92,7 +92,7 @@ const Contact = () => {
 
                     </div>
 
-                </form>
+                </div>
             </div >
         </div >
     );

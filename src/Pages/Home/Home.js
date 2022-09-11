@@ -2,12 +2,18 @@ import React from 'react';
 import Typical from 'react-typical'
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { FaFacebook } from 'react-icons/fa';
-// import Particals from '../Partical/Particals';
+
 
 const Home = () => {
+
+
     return (
+
+
+
+
         <div className=' md:h-[100vh] md:w-full  w-full overflow-hidden bg-black md:pt-6 pt-4 pb-6 md:pb-0'>
-            {/* <Particals></Particals> */}
+
             <div className='md:flex gap-32  md:items-center w-full md:mx-14 mx-6 mt-12'>
                 <div className='md:w-2/4 w-full '>
 
@@ -42,7 +48,27 @@ const Home = () => {
                     <img className=' rounded-full border-2 border-[#22577E] hover:border-4 hover:border-[#22577E] duration-300 md:w-[400px] md:h-[400px] w-[300px] h-[300px] md:mt-0 mt-8' src="https://i.ibb.co/TbWZ8nS/black-smooth-textured-paper-background-53876-98333.png" alt="" />
                 </div>
             </div>
+
+
+            <div className="bubblus ">
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img className='md:block hidden' src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img className='md:block hidden' src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+                <img className='md:block hidden' src="https://i.ibb.co/T1jmY9M/bubble.png" alt="" />
+
+            </div>
+
         </div>
+
+
+
+
     );
 };
 

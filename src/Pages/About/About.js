@@ -12,14 +12,13 @@ const About = () => {
                 <h1 className='text-4xl font-bold mt-4 font-mons'>About Me</h1>
                 <div className='border border-[#009e66] md:w-1/4 w-full mt-4 mx-auto'></div>
             </div>
-
+            {/* <h1 className='text-white'>hhhhhhhhhhhhhhhhhhhhhhhhh</h1> */}
 
             <div className='md:flex justify-between  gap-24 md:mx-20 mx-8 mt-16'>
 
 
 
                 <div >
-                    {/* <img className='h-[500px]' src="https://harnishdesign.net/demo/html/callum/images/web-developer.jpg" alt="" /> */}
                     <img className='w-[400px] h-[480px] border-2' src="https://i.ibb.co/LYpbW6P/IMG-20220506-WA0087.jpg" alt="" />
                 </div>
 
@@ -165,7 +164,7 @@ const About = () => {
                             <div class="row-span-2 p-6 rounded bg-[#161616] text-center sm:p-8">
                                 <div class="h-full flex flex-col justify-center space-y-4">
                                     <img class="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/second_user.webp" alt="user avatar" height="220" width="220" loading="lazy" />
-                                    <p class="text-gray-400 md:text-xl"> <span class="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
+                                    <p class="text-gray-400 md:text-xl"> <span class="font-serif">"</span>Aamet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
                                     <div>
                                         <h6 class="text-lg font-semibold leading-none">Jane Doe</h6>
                                         <span class="text-xs text-gray-500">Product Designer</span>
@@ -176,7 +175,7 @@ const About = () => {
                             <div class="p-6  rounded bg-[#161616] sm:flex sm:space-x-8 sm:p-8">
                                 <img class="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/first_user.webp" alt="user avatar" height="220" width="220" loading="lazy" />
                                 <div class="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
-                                    <p class="text-gray-500"> <span class="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
+                                    <p class="text-gray-500"> <span class="font-serif">"</span>Sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
                                     <div>
                                         <h6 class="text-lg font-semibold leading-none">Jane Doe</h6>
                                         <span class="text-xs text-gray-500">Product Designer</span>
@@ -186,7 +185,7 @@ const About = () => {
                             <div class="p-6 rounded bg-[#161616] sm:flex sm:space-x-8 sm:p-8">
                                 <img class="w-20 h-20 mx-auto rounded-full" src="https://tailus.io/sources/blocks/grid-cards/preview/images/avatars/third_user.webp" alt="user avatar" height="220" width="220" loading="lazy" />
                                 <div class="space-y-4 mt-4 text-center sm:mt-0 sm:text-left">
-                                    <p class="text-gray-600"> <span class="font-serif">"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
+                                    <p class="text-gray-600"> <span class="font-serif">"</span>  Consectetur adipisicing elit. Quaerat repellat perspiciatis excepturi est. Non ipsum iusto aliquam consequatur repellat provident, omnis ut, sapiente voluptates veritatis cum deleniti repudiandae ad doloribus. <span class="font-serif">"</span></p>
                                     <div>
                                         <h6 class="text-lg font-semibold leading-none">Jane Doe</h6>
                                         <span class="text-xs text-gray-500">Product Designer</span>
