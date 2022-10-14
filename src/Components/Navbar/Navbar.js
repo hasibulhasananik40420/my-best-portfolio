@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BiMenuAltLeft } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
-import resume from '../../Img/Hasibul Hasan_Resume (5) (1).pdf'
+import resume from '../../Img/Hasibul Hasan_Resume (4).pdf'
 const Navbar = () => {
 
 
@@ -55,7 +55,7 @@ const Navbar = () => {
                             <Link to='/contact' className='md:text-white hover:text-gray-400 duration-500'>CONTACT</Link>
                         </li>
 
-                        <button className='py-2 px-8 md:ml-8 rounded-full bg-[#009e66] text-white font-medium'><a href={resume} download >Resume</a></button>
+                        {/* <button className='py-2 px-8 md:ml-8 rounded-full bg-[#009e66] text-white font-medium'><a href={resume} download >Resume</a></button> */}
 
 
                     </ul>

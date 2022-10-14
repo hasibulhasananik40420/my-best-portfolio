@@ -14,7 +14,8 @@ const MyWork = () => {
 
 
                     <div data-aos="fade-up-right" className='card'>
-                        <img className='card-img' src="https://i.ibb.co/Xyx2tmv/Screenshot-16.png" alt="" />
+
+                        <img className='card-img' src="https://i.ibb.co/b2bSp17/screencapture-assignment-12-fe1d7-web-app-2022-10-03-23-01-44.png" alt="" />
 
                         <div className="card-body ">
 
@@ -23,17 +24,17 @@ const MyWork = () => {
                             <p className='card-info'>Authorization and authorization Implementation
                                 Admin and user inter Connection system
                                 Connect Stripe Payment Method system with card payment.</p>
-                            <div className='flex gap-4 text-blue-600 p-2'>
-                                <a href="">Live Link</a>
-                                <a href="">Client Repo</a>
-                                <a href="">Server Repo</a>
+                            <div className='flex gap-4 text-red-600 p-2'>
+                                <a href="https://assignment-12-fe1d7.web.app/">Live Link</a>
+                                <a href="https://github.com/hasibulhasananik40420/Bicycle-parts-manufacturers-client">Client Repo</a>
+                                <a href="https://github.com/hasibulhasananik40420/Bicycle-parts-manufacturers-server">Server Repo</a>
                             </div>
                             <button className='card-btn'>Learn more</button>
                         </div>
                     </div>
 
                     <div data-aos="fade-left" className='card'>
-                        <img className='card-img' src="https://i.ibb.co/2Kr68HV/Screenshot-7.png" alt="" />
+                        <img className='card-img' src="https://i.ibb.co/k1tc1N1/screencapture-assginment-11-web-app-2022-10-04-10-26-25.png" alt="" />
 
                         <div className="card-body">
 
@@ -42,17 +43,17 @@ const MyWork = () => {
                             <p className='card-info'>Authorization and authorization Implementation
                                 Admin and user inter Connection system
                                 Connect Stripe Payment Method system with card payment.</p>
-                            <div className='flex gap-4 text-blue-600 p-2'>
-                                <a href="">Live Link</a>
-                                <a href="">Client Repo</a>
-                                <a href="">Server Repo</a>
+                            <div className='flex gap-4 text-red-600 p-2'>
+                                <a href="https://assginment-11.web.app/">Live Link</a>
+                                <a href="https://github.com/hasibulhasananik40420/Izmo-stock-client">Client Repo</a>
+                                <a href="https://github.com/hasibulhasananik40420/Izmo-stock-server">Server Repo</a>
                             </div>
                             <button className='card-btn'>Learn more</button>
                         </div>
                     </div>
 
                     <div data-aos="zoom-in" className='card'>
-                        <img className='card-img' src="https://i.ibb.co/Lv4yK97/Screenshot-17.png" alt="" />
+                        <img className='card-img' src="https://i.ibb.co/v1V7wkb/screencapture-desgin-agency-web-app-2022-10-04-10-27-31.png" alt="" />
 
                         <div className="card-body">
 
@@ -62,10 +63,10 @@ const MyWork = () => {
                                 Admin and user inter Connection system
                                 Connect Stripe Payment Method system with card payment.</p>
 
-                            <div className='flex gap-4 text-blue-600 p-2'>
-                                <a href="">Live Link</a>
-                                <a href="">Client Repo</a>
-                                <a href="">Server Repo</a>
+                            <div className='flex gap-4 text-red-600 p-2'>
+                                <a href="https://desgin-agency.web.app/">Live Link</a>
+                                <a href="https://github.com/hasibulhasananik40420/desgin-agency">Client Repo</a>
+                                <a href="https://github.com/hasibulhasananik40420/desgin-agency-server">Server Repo</a>
                             </div>
                             <button className='card-btn'>Learn more</button>
                         </div>
@@ -80,7 +81,7 @@ const MyWork = () => {
                             <p className='card-sub-title'>25 July 2021</p>
                             <p className='card-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur cumque harum ducimus officia deserunt alias quaerat culpa quos, eum consectetur voluptatum? Placeat, repellat fugit.</p>
 
-                            <div className='flex gap-4 text-blue-600 p-2'>
+                            <div className='flex gap-4 text-red-600 p-2'>
                                 <a href="">Live Link</a>
                                 <a href="">Client Repo</a>
                                 <a href="">Server Repo</a>
@@ -97,7 +98,7 @@ const MyWork = () => {
                             <h1 className='card-title'>Genius Cars Service </h1>
                             <p className='card-sub-title'>11th Dec 2021</p>
                             <p className='card-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur cumque harum ducimus officia deserunt alias quaerat culpa quos, eum consectetur voluptatum? Placeat, repellat fugit.</p>
-                            <div className='flex gap-4 text-blue-600 p-2'>
+                            <div className='flex gap-4 text-red-600 p-2'>
                                 <a href="">Live Link</a>
                                 <a href="">Client Repo</a>
                                 <a href="">Server Repo</a>
@@ -114,7 +115,7 @@ const MyWork = () => {
                             <p className='card-sub-title'>22 Feb 2022</p>
                             <p className='card-info'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis consequatur cumque harum ducimus officia deserunt alias quaerat culpa quos, eum consectetur voluptatum? Placeat, repellat fugit.</p>
 
-                            <div className='flex gap-4 text-blue-600 p-2'>
+                            <div className='flex gap-4 text-red-600 p-2'>
                                 <a href="">Live Link</a>
                                 <a href="">Client Repo</a>
                                 <a href="">Server Repo</a>

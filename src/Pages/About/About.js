@@ -1,18 +1,17 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import { FaFacebook } from 'react-icons/fa';
-
+import resume from '../../Img/Hasibul Hasan_Resume (4).pdf'
 const About = () => {
     return (
         <div className='bg-black'>
 
 
-            <div className='text-white text-center'>
-                <p className='pt-10 font-san'>Get to know me</p>
-                <h1 className='text-4xl font-bold mt-4 font-mons'>About Me</h1>
+            <div className=' text-center '>
+                <p className='pt-10 font-san text-white'>Get to know me</p>
+                <h1 className='text-4xl font-bold mt-4 font-mons text-white'>About Me</h1>
                 <div className='border border-[#009e66] md:w-1/4 w-full mt-4 mx-auto'></div>
             </div>
-            {/* <h1 className='text-white'>hhhhhhhhhhhhhhhhhhhhhhhhh</h1> */}
 
             <div className='md:flex justify-between  gap-24 md:mx-20 mx-8 mt-16'>
 
@@ -37,7 +36,7 @@ const About = () => {
                         </div>
 
                         <div>
-                            <h1><span className='font-bold font-san'>Email : </span> <span className='text-[#009e66] font-mons'> emma@example.com</span></h1>
+                            <h1><span className='font-bold font-san'>Email : </span> <span className='text-[#009e66] font-mons'> hasibulhasan40420@gmail.com</span></h1>
                             <h1 className='mt-2'>
                                 <span className='font-bold font-san'>From : </span> <span className='text-gray-300 font-mons'>Rajshahi, Bangladesh</span></h1>
                         </div>
@@ -46,7 +45,7 @@ const About = () => {
 
                     <div className='md:flex justify-between items-center md:w-3/4 w-full mt-6'>
 
-                        <div> <button className='py-3 px-8 mt-6 rounded-full bg-[#009e66] text-white font-medium font-mons'>Download Cv</button></div>
+                        <div> <button className='py-3 px-8 mt-6 rounded-full bg-[#009e66] text-white font-medium font-mons'><a href={resume} download >Download Cv</a> </button></div>
 
                         <div className='border border-gray-400 md:w-1/4 w-full mt-4'></div>
 
